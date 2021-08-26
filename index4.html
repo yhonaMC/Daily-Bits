@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/index3.css" />
+    <link rel="stylesheet" href="./libs/css/bootstrap.min.css" />
+    <title></title>
+  </head>
+  <body class="body">
+    <div class="barra">
+      <div class="close">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar bg-success"
+          role="progressbar"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+      <div class="heart">
+        <img src="./img/Component 1.png" alt="" />
+      </div>
+      <span id="counter-vidas">4</span>
+    </div>
+    <div class="question">
+      <p class="questionQuiz ms-4 mt-5">
+        Organiza la estructura de un documento HTML?
+      </p>
+    </div>
+    <div class="spacing">
+      <div
+        id="div1"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+        class="place"
+      ></div>
+      <hr />
+      <div
+        id="div1"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+        class="place"
+      ></div>
+      <hr />
+    </div>
+
+    <div class="imagen-quiz">
+      <div class="mt-1">
+        <img
+          id="drag1"
+          src="./img/doctype.png"
+          draggable="true"
+          ondragstart="drag(event)"
+        />
+
+        <img
+          id="drag2"
+          src="./img/Buttons(html1).png"
+          draggable="true"
+          ondragstart="drag(event)"
+        />
+        <img
+          id="drag3"
+          src="./img/Buttons(html2).png"
+          draggable="true"
+          ondragstart="drag(event)"
+        />
+      </div>
+      <div class="mt-2">
+        <img
+          id="drag4"
+          src="./img/Buttons(head).png"
+          draggable="true"
+          ondragstart="drag(event)"
+        />
+
+        <img
+          id="drag5"
+          src="./img/Buttons1.png"
+          draggable="true"
+          ondragstart="drag(event)"
+        />
+      </div>
+    </div>
+
+    <div class="validar">
+      <button
+        type="submit"
+        class="btn btn-prymary btnComprobar"
+        id="btnComprobar"
+      >
+        Comprobar
+      </button>
+    </div>
+    <script src="./js/dragandrop.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f258d2fed5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./libs/js/bootstrap.min.js"></script>
+  </body>
+</html>
